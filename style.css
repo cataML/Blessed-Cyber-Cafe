@@ -1,0 +1,21 @@
+body{
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.Logo{
+    margin-left: 10px;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+}
