@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .header{
     position: relative;
     width: 100%;
@@ -12,8 +13,11 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.Logo{
+.Logo a{
     margin-left: 10px;
+}
+logo a:hover{
+    color: red;
 }
 .menu{
     display: flex;
@@ -27,5 +31,34 @@ li a{
     font-size: 18px;
     font-weight: bold;
     display: flex;
+}
+li a:hover{
+    color: red;
+}
+active{
+    color: red;
+}
+h1{
+    align-items: center;
+}
+h1, h3{
+    align-self: center;
+    color: white;
+    margin-left: 35%;
+    font-size: xx-large;
+    margin-top: 35%;
+}
+.footer h2{
+    color: aqua;
+    margin-left: 40%;
+    margin-top: 60%;
+}
+.footer p{
+    color: white;
+    margin-left: 40%;
+}
+.footer a{
+    color: whitesmoke;
     
+  
 }
